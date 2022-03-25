@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Relux DF07 ultra smooth mouse",
+    "price": 130,
+    "img": "https://thermaltake.azureedge.net/pub/media/catalog/product/cache/6bf0ed99c663954fafc930039201ed07/l/2/l20m01.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Relux 591 100DPI",
+    "price": 42,
+    "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/accessories/wireless-mouse-gt/imgs/pc/huawei-wireless-mouse-gt-kv.jpg"
+  },
+  {
+    "id": "3",
+    "name": "ULTRABOOST Wireless Mouse",
+    "price": 40,
+    "img": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"
+  },
+  {
+    "id": "4",
+    "name": "Logi M100 (collab)",
+    "price": 220,
+    "img": "https://m.xcite.com/media/catalog/product/cache/1/thumbnail/550x400/9df78eab33525d08d6e5fb8d27136e95/3/1/314stie0rul._ac__250_486.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Relux bingO Gaming mouse",
+    "price": 499,
+    "img": "https://m.media-amazon.com/images/I/61lCLrCtuhL._AC_SX522_.jpg"
+  },
+  {
+    "id": "6",
+    "name": "X1 Carbon 2500DPI",
+    "price": 990,
+    "img": "https://m.media-amazon.com/images/I/61lCLrCtuhL._AC_SX522_.jpg"
+  },
+  {
+    "id": "7",
+    "name": "X2 Carbon (flagship)",
+    "price": 599,
+    "img": "https://m.media-amazon.com/images/I/71oMIvztVOS._AC_SL1500_.jpg"
+  },
+  {
+    "id": "8",
+    "name": "ULTRABOOST 22 SHOES",
+    "price": 420,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+  },
+  {
+    "id": "9",
+    "name": "ULTRABOOST 22 SHOES",
+    "price": 420,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+  }
+]

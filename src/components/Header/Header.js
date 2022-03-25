@@ -1,11 +1,12 @@
 import React from "react";
+import "./Header.css";
 
-function Header() {
+const Header = () => {
   return (
-    <div>
-      <h1>relux life style</h1>
+    <div className="header">
+      <h2>relux lifeStyle</h2>
     </div>
   );
-}
+};
 
 export default Header;
