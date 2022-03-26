@@ -52,5 +52,23 @@
     "name": "Micropack M101 Optical USB Mouse",
     "price": 420,
     "img": "https://www.startech.com.bd/image/cache/catalog/mouse/micropack/m101/m101-1-500x500.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Delux M331BU Wired Optical Mouse",
+    "price": 425,
+    "img": "https://www.startech.com.bd/image/cache/catalog/mouse/delux/m331bu/m331bu-01-500x500.jpg"
+  },
+  {
+    "id": "11",
+    "name": "A4TECH OP-620D 2X Click Optical Mouse",
+    "price": 425,
+    "img": "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/620d/620d-500x500.jpg"
+  },
+  {
+    "id": "12",
+    "name": "HAVIT HV-MS626GT WIRELESS OPTICAL MOUSE",
+    "price": 425,
+    "img": "https://www.startech.com.bd/image/cache/catalog/mouse/havit/hv-ms626gt/hv-mS626gt-500x500.jpg"
   }
 ]
