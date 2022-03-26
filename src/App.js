@@ -44,7 +44,7 @@ function App() {
           ))}
         </div>
         <div className="cart-container">
-          <h3>Cart</h3>
+          <h3>Selected Mouse</h3>
           {cart.map((item) => (
             <h4 key={item.id}>Name: {item.name}</h4>
           ))}
