@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Relux LifeStyle and Mouse
+live site [Relux Live](https://nimble-mochi-e269e4.netlify.app/).
 
 ## Available Scripts
 
