@@ -2,26 +2,27 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Card from "./components/Card";
 import Header from "./components/Header/Header";
-import { random } from "./components/uti.js";
+import QandA from "./components/QandA";
 
 function App() {
   const [mouses, setMouses] = useState([]);
   const [cart, setCart] = useState([]);
-  const [choose, setChoose] = useState([]);
 
-  const handleAddToCart = (mouse) => {
-    const newCart = [...cart, mouse];
-    setCart(newCart);
+  const ChooseOne = () => {
+    const random = Math.floor(Math.random() * cart.length);
+    const choosed = [cart[random]];
+    setCart(choosed);
+  };
+  const ChooseAgain = () => {
+    setCart([]);
   };
 
-  const chooseOne = (cart) => {
-    let newArray = [];
-    let num = random(cart.length);
-    let selected = cart.find((mouse) => mouse.id === num);
-
-    if (selected) {
-      newArray = [selected];
-      setChoose(newArray);
+  const handleAddToCart = (mouse) => {
+    if (cart.length >= 4) {
+      alert("only 4 product can added");
+    } else {
+      const newCart = [...cart, mouse];
+      setCart(newCart);
     }
   };
 
@@ -46,29 +47,21 @@ function App() {
         <div className="cart-container">
           <h3>Selected Mouse</h3>
           {cart.map((item) => (
-            <h4 key={item.id}>Name: {item.name}</h4>
+            <p key={item.id}>
+              <b>Name:</b> {item.name}
+            </p>
           ))}
-          <button className="btn btn-primary" onClick={() => chooseOne(cart)}>
+          <button className="btn btn-primary" onClick={ChooseOne}>
             Choose For me
           </button>
 
-          <button
-            className="btn btn-danger mt-1"
-            onClick={() => {
-              setCart([]);
-            }}
-          >
+          <button className="btn btn-danger mt-1" onClick={ChooseAgain}>
             Remove all
           </button>
-          {choose.map((singleChoose) => (
-            <div key={singleChoose.id}>
-              <h2>{singleChoose.name}</h2>
-            </div>
-          ))}
         </div>
+        <QandA></QandA>
       </div>
     </div>
   );
 }
-
 export default App;
